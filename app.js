@@ -2,11 +2,11 @@ const { fake } = require("faker/locale/pl");
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
-  host: "localhost",
-  port: "3306",
-  user: "root",
-  password: "123",
-  database: "megaK",
+  host: "localhost", // adres bazy
+  port: "3306", // port ( * opcjonalnie)
+  user: "root", // użytkownik
+  password: "123", // hasło
+  database: "megaK", // nazwa bazy
 });
 
 db.connect((err) => {
