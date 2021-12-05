@@ -1,6 +1,6 @@
 # Generowanie danych do bazy MySql za pomocą NodeJS oraz Faker.js
 
-## Kopiowanie edytora kodu
+## Kopiowanie do edytora kodu
 
 ```bash
 git clone https://github.com/maciej-szeremeta/sqlData.git .
